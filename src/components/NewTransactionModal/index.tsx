@@ -99,7 +99,3 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
     </Modal>
   );
 }
-
-function useTransaction(): { createTransaction: any; } {
-  throw new Error("Function not implemented.");
-}
